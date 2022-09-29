@@ -1,0 +1,25 @@
+body{
+    background-color: #36347C;
+
+}
+
+#mainDiv{
+    margin-top: 50px;
+padding-top: 10px;
+padding-bottom: 40px;
+width: 300px;
+border-radius: 20px;
+
+
+
+}
+
+#checkbox{
+    float:left;
+}
+#Fpass{
+    float:right
+}
+h1{
+    color:black;
+}

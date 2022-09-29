@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIS Atendence Web App</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js"></script>
+  <link rel="shortcut icon" href="LOGO.png" type="image/x-icon">
+
+
+  <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+</head>
+<body >
+    <center>
+    <div id="mainDiv"class="bg-info" >
+        <h1>LOGIN</h1>
+        <br>
+ 
+    <label>Email</label>
+ <br>
+    <input id="email" type="email">
+    <br><br>
+    <label>Password</label>
+    <br>
+    <input id="password"type="password">
+ <br><br>
+ <button class="btn btn-primary" onclick="signIn()">Login</button>
+<br>
+<div id="subDiv" style="background-color: #000;">
+<label id="checkbox"><input type="checkbox"> Rememeber me </label>
+<label id="Fpass">Forgot Password</label>  
+</div>
+
+<br>
+<br>
+</div>
+    </center>
+<script>
+     // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+ var firebaseConfig = {
+    apiKey: "AIzaSyCWYFEh0Yy3ReODv6VKSSVITY4iCzVRCNs",
+    authDomain: "dis-attendance.firebaseapp.com",
+    databaseURL: "https://dis-attendance-default-rtdb.firebaseio.com",
+    projectId: "dis-attendance",
+    storageBucket: "dis-attendance.appspot.com",
+    messagingSenderId: "875524203644",
+    appId: "1:875524203644:web:71b0174422436a9d5915f9",
+    measurementId: "G-JBMW0Q2TDP"
+};
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);  
+
+var auth = firebase.auth();
+
+</script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIS Attendance Web App(Teacher)</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="Attendance.css">
+  <script src="Attendance.js"></script>
+  <link rel="shortcut icon" href="LOGO.png" type="image/x-icon">
+  <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-database.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+  
+</head>
+<body>
+    <center>
+<div id="head_div">
+<h1>Attendance</h1>
+</div>
+
+<div id="sub_head_div" class="bg-info">
+   
+  
+      <div id="roll_No"><h4>Roll No.</h4></div>
+      <div id="student_name"><h4>Student Name</h4></div>
+      <div id="p-a"><h4>P/A</h4></div>
+</div>
+
+<div id="main_div" class="bg-info">
+  <div id="d1"><h4 id="r1">1.</h4><h4 id="name">Arpit Pal</h4><input type="checkbox" id="pa1" class="check"></div>
+<hr>
+<div id="d1"><h4 id="r1">2.</h4><h4 id="name">Ayush Prasad</h4><input type="checkbox" id="pa2"class="check"></div>
+<hr>
+<div id="d1"><h4 id="r1">3.</h4><h4 id="name">Farina Khatun</h4><input type="checkbox" id="pa3"class="check"></div>
+<hr>
+<div id="d1"><h4 id="r1">4.</h4><h4 id="name">Khushi </h4><input type="checkbox" id="pa4"class="check"></div>
+<hr>
+<div id="d1"><h4 id="r1">5.</h4><h4 id="name">Krishna </h4><input type="checkbox" id="pa5"class="check"></div>
+<hr>
+<div id="d1"><h4 id="r1">6.</h4><h4 id="name">Lachi Chauhan</h4><input type="checkbox" id="pa6" class="check"></div>
+<hr>
+<div id="d1"><h4 id="r1">7.</h4><h4 id="name">Manshi Shah</h4><input type="checkbox" id="pa7"class="check"></div>
+<hr>
+<div id="d1"><h4 id="r1">8.</h4><h4 id="name">Mohit Charan</h4><input type="checkbox" id="pa8"class="check"></div>
+<hr>
+<div id="d1"><h4 id="r1">9.</h4><h4 id="name">Ravi Kushwaha</h4><input type="checkbox" id="pa9"class="check"></div>
+<hr>
+<div id="d1"><h4 id="r1">10.</h4><h4 id="name">Ritik Singh</h4><input type="checkbox" id="pa10"class="check"></div>
+<hr>
+<div id="d1"><h4 id="r1">11.</h4><h4 id="name">Saavi Gupta</h4><input type="checkbox" id="pa11"class="check"></div>
+<hr>
+<div id="d1"><h4 id="r1">12.</h4><h4 id="name">Shantosi</h4><input type="checkbox" id="pa12"class="check"></div>
+<hr>
+<div id="d1"><h4 id="r1">13.</h4><h4 id="name">Shivam Prajapati</h4><input type="checkbox" id="pa13" class="check"></div>
+<hr>
+<div id="d1"><h4 id="r1">14.</h4><h4 id="name">Smuti Rekha</h4><input type="checkbox" id="pa14"class="check"></div>
+<hr>
+<div id="d1"><h4 id="r1">15.</h4><h4 id="name">Sujal Bhagat</h4><input type="checkbox" id="pa15" class="check" ></div>
+<hr>
+<div id="d1"><h4 id="r1">16.</h4><h4 id="name">Supriya</h4><input type="checkbox" id="pa16" class="check"></div>
+<hr>
+<div id="d1"><h4 id="r1">17.</h4><h4 id="name">Sunny Singh</h4><input type="checkbox" class="check"id="pa17"></div>
+<hr>
+<div id="d1"><h4 id="r1">18.</h4><h4 id="name">Tuntun Prasad</h4><input type="checkbox" class="check"id="pa18"></div>
+<hr>
+<div id="d1"><h4 id="r1">19.</h4><h4 id="name">Tejasvi Borival</h4><input type="checkbox" class="check" id="pa19"></div>
+<hr>
+<div id="d1"><h4 id="r1">20.</h4><h4 id="name">Harshit Sharma</h4><input type="checkbox"class="check" id="pa20"></div>
+
+
+
+</div>
+<br>
+
+<button class="btn btn-primary" id="save" onclick="save()">Save</button>
+<br>
+<br>
+</center>
+<script>
+  
+const firebaseConfig = {
+  apiKey: "AIzaSyCWYFEh0Yy3ReODv6VKSSVITY4iCzVRCNs",
+  authDomain: "dis-attendance.firebaseapp.com",
+  databaseURL: "https://dis-attendance-default-rtdb.firebaseio.com",
+  projectId: "dis-attendance",
+  storageBucket: "dis-attendance.appspot.com",
+  messagingSenderId: "875524203644",
+  appId: "1:875524203644:web:71b0174422436a9d5915f9",
+  measurementId: "G-JBMW0Q2TDP"
+};
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
+
+</script>
+</body>
+</html>

@@ -1,0 +1,212 @@
+#head_div{
+width:80%;
+height: 50px;
+border-radius: 20px;
+margin-bottom: 20px;
+background-color: cyan;
+}
+body{
+    background-color: #36347C;
+}
+
+h1{
+    color: #000;
+    margin-top: 10px;
+}
+
+/* sub head start*/
+#sub_head_div{
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+
+
+    height: 80%;
+    border-radius: 20px;
+width: 90%;
+}
+#roll_No{
+    width: 15%;
+    color:#000;
+    background-color: cyan;
+    font-weight: bold;
+    border-radius: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    float: left;
+    margin-right:20px ;
+}
+#student_name{
+    width: 30%;
+    color:#000;
+    background-color: cyan;
+    font-weight: bold;
+    border-radius: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-right: 10px;
+}
+#p-a{
+    width: 15%;
+    color:#000;
+    background-color: cyan;
+    font-weight: bold;
+    border-radius: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    float: right;
+    margin-right:20px ;
+    margin-top: -42px;
+    height: 90%;
+}
+/* sub head end*/
+
+#main_div{
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+
+
+    height: 80%;
+    border-radius: 20px;
+width: 90%;
+}
+
+#r1{
+    width: 15%;
+    color:#000;
+    background-color: cyan;
+    font-weight: bold;
+    border-radius: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    float: left;
+    margin-right:20px ;
+}
+#name{
+    width: 30%;
+    color:#000;
+    background-color: cyan;
+    font-weight: bold;
+    border-radius: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-right: 10px;
+}
+#pa1{
+    margin-right:20px;
+    margin-top: -30px;
+    float: right; 
+}
+
+#pa2{
+    margin-right:20px;
+    margin-top: -30px;
+    float: right; 
+}
+
+#pa3{
+    margin-right:20px;
+    margin-top: -30px;
+    float: right; 
+}
+
+#pa4{
+    margin-right:20px;
+    margin-top: -30px;
+    float: right; 
+}
+
+#pa5{
+    margin-right:20px;
+    margin-top: -30px;
+    float: right; 
+}
+
+#pa6{
+    margin-right:20px;
+    margin-top: -30px;
+    float: right; 
+}
+
+#pa7{
+    margin-right:20px;
+    margin-top: -30px;
+    float: right; 
+}
+#pa8{
+    margin-right:20px;
+    margin-top: -30px;
+    float: right; 
+}
+#pa9{
+    margin-right:20px;
+    margin-top: -30px;
+    float: right; 
+}
+#pa10{
+    margin-right:20px;
+    margin-top: -30px;
+    float: right; 
+}
+#pa11{
+    margin-right:20px;
+    margin-top: -30px;
+    float: right; 
+}
+#pa12{
+    margin-right:20px;
+    margin-top: -30px;
+    float: right; 
+}
+#pa13{
+    margin-right:20px;
+    margin-top: -30px;
+    float: right; 
+}
+#pa14{
+    margin-right:20px;
+    margin-top: -30px;
+    float: right; 
+}
+#pa15{
+    margin-right:20px;
+    margin-top: -30px;
+    float: right; 
+}
+#pa16{
+    margin-right:20px;
+    margin-top: -30px;
+    float: right; 
+}
+#pa17{
+    margin-right:20px;
+    margin-top: -30px;
+    float: right; 
+}
+#pa18{
+    margin-right:20px;
+    margin-top: -30px;
+    float: right; 
+}
+#pa19{
+    margin-right:20px;
+    margin-top: -30px;
+    float: right; 
+}
+#pa20{
+    margin-right:20px;
+    margin-top: -30px;
+    float: right; 
+}
+
+#save{
+    float: right;
+    margin-right: 20px;
+    
+}
+
+/*
